@@ -2,8 +2,8 @@ import Toggle from './Toggle'
 import { HiCube } from 'react-icons/hi'
 
 function Header() {
-    return <header className="flex justify-between p-5 max-w-7xl mx-auto">
-        <div className="flex items-center space-x-5">
+    return <header className="flex justify-between p-5 max-w-7xl mx-auto ssm:mx-auto ssm:justify-between">
+        <div className="flex items-center space-x-5 ssm:space-x-1">
                 <HiCube className="mx-auto h-16 dark:fill-slate-200 w-44 object-contain cursor-pointer" alt="Logo"
           />
             <div className="hidden md:inline-flex items-center space-x-5 dark:text-white">
@@ -13,7 +13,7 @@ function Header() {
             </div>
         </div>
   
-        <div className="flex items-center space-x-5 text-green-600">
+        <div className="flex items-center space-x-5">
        <Toggle />
         </div>
     </header>;

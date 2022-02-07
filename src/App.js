@@ -6,7 +6,7 @@ import { ThemeProvider } from './context/ThemeContext';
 function App() {
   return (
     <ThemeProvider>
-      <div className="flex-col justify-between h-screen">
+      <div className="flex-col justify-between h-screen ssm:mx-auto">
        <Header/>
        <LoginScreen/>
        <Footer />

@@ -4,7 +4,7 @@ import { HiCube } from 'react-icons/hi'
 export default function LoginScreen() {
   return (
     <>
-      <div className="min-h-0 flex flex-col justify-center py-12 ssm:px-6 sm:px-6 lg:px-8">
+      <div className="min-h-0 flex flex-col justify-center py-12 ssm:px-6 sm:px-6 lg:px-8 ssm:mx-auto">
         <div className="sm:mx-auto sm:w-full sm:max-w-md ssm:max-w-sm ssm:mx-auto">
           <HiCube
             className="mx-auto h-16 dark:fill-slate-200 w-auto"
@@ -13,8 +13,8 @@ export default function LoginScreen() {
           <h2 className="mt-6 text-center text-3xl font-extrabold dark:text-white text-gray-900">Sign in to your account</h2>
         </div>
 
-        <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
-          <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+        <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md ssm:mx-auto ssm:max-w-xs ">
+          <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10 ssm:max-w-xs ssm:px-6 ssm:rounded-lg">
             <form className="space-y-6" action="#" method="POST">
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700">
@@ -48,7 +48,7 @@ export default function LoginScreen() {
                 </div>
               </div>
 
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between ssm:flex-col">
                 <div className="flex items-center">
                   <input
                     id="remember-me"
